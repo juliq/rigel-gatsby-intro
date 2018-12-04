@@ -4,10 +4,11 @@ import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import Image from '../components/image'
 
-const IndexPage = () => (
+const AboutPage = () => (
   <Layout>
-    <h1>Hi Gatsby</h1>
-    <p>Welcome to your new Gatsby site.</p>
+    <h1>About</h1>
+    <Link to="/">Home</Link>
+    <p>Welcome to the About Page.</p>
     <p>Now go build something great.</p>
     <div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
       <Image />
@@ -16,4 +17,4 @@ const IndexPage = () => (
   </Layout>
 )
 
-export default IndexPage
+export default AboutPage
